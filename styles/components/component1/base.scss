@@ -1,0 +1,15 @@
+.component1{
+    width: 100%;
+    background-color: black;
+    color: $white;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+}
+.header{
+    width: 61vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

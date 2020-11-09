@@ -1,0 +1,39 @@
+@media (max-width: 767px){
+    .butleft, .butright{
+        display: none;
+    }
+    .component2{
+        height: 213.07px;
+    }
+    .butRead{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 2px;
+    }
+    .caption32{
+        font-size: 9px;
+    }
+    .caption{
+        padding-top: 0px;
+        width: 100%;
+        height: 230px;
+        margin-left: 0px;
+    }
+    .caption1{
+        font-size: 25px;
+        word-spacing: -1px;
+    }
+    .caption2{
+        font-size: 30px; 
+        word-spacing: -3px;
+    }
+    
+    .caption31{
+        display: none;
+    }
+    .butBorder{
+        font-size: 7px;
+        padding: 2px 7px;
+        border: 1px white solid;
+    }
+}

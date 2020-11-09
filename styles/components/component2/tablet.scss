@@ -1,0 +1,43 @@
+@media (max-width: 1024px) and (min-width:768px){
+    .butleft, .butright{
+        display: none;
+    }
+    .component2{
+        height: 592.1px;
+    }
+    .butRead{
+        margin-top: 40px;
+    }
+    .butBorder{
+        padding: 10px 30px;
+    }
+    .caption{
+        padding-bottom: 28px;
+        margin-left: 0px;
+    }
+    .contentHeader{
+        
+    word-spacing: -6px;
+    margin-left: 5px;
+    margin-top: 6px;
+
+    }
+    .caption32{
+        display: none;
+    }
+    .caption1{
+        font-size: 58.81px;
+        word-spacing: -2px;
+    }
+    .caption2{
+        font-size: 71.77px;
+        word-spacing: -4px;
+        letter-spacing: -1px;
+    }
+    .caption31{
+        font-size: 18.94px;
+    }
+    .caption{
+        padding-top: 0px;
+    }
+}

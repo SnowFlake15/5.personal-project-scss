@@ -1,0 +1,54 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+    .navigation2{
+        background-color: $green;
+        width: 56px;
+        height: 39px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .navBord{
+            border: white, 2px, solid;
+            width: 48.44px;
+            height: 31.44px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: white solid 2px
+        }
+        img{
+            width: 30px;
+            margin-bottom: 5px;
+        }
+    }
+    .navigation{
+        display: none;
+    }
+    .navigation3{
+        display: none;
+    }
+    .component1{
+        height: 108.92px;
+        justify-content: space-between;
+    }
+    .header{
+        width: 94%;
+        margin: auto;
+    }
+    .logo{
+        display: flex;
+        font-family: 'Raleway';
+        width: 50px;
+        align-items: baseline;
+        // height: 50px;
+        img{
+            width: 27px;
+        }
+        p{
+            font-size: 36px;
+        }
+    }
+  }

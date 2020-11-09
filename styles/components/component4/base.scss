@@ -1,0 +1,16 @@
+.component4{
+    height: 783px;
+    width: 100%;
+    background-color: $lighterBackground;
+}
+.contentHeader11{
+    @include contentHeader();
+    color: white;
+    .contentHeader22{
+        @include contentHeader2();
+    }
+    
+}
+.content2{
+    @include content();
+}

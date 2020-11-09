@@ -1,0 +1,44 @@
+@media (max-width: 1920px)and(min-width:1025px){
+    .component2{
+        height: 758px;
+        padding: 40px 25px 180px 25px;
+    }
+    .butright{
+        background-color: transparent;
+        color: $white;
+        display: inline-block;
+        border: 0;
+        text-align: center;
+        font-size: 70px;
+        width: 50px;
+        height: 50px;
+    }
+    .butleft{
+        background-color: transparent;
+        color: $white;
+        border: 0;
+        display: inline-block;
+        text-align: center;
+        font-size: 70px;
+        width: 50px;
+        height: 50px;
+    }
+    .caption{
+        padding-top: 120px;
+    }
+    .caption1{
+        font-size: 58px;
+    }
+    .caption2{
+        font-size: 72px;
+    }
+    .caption3{
+        font-size: 20px;
+    }
+    .butBorder{
+        padding: 10px 30px;
+    }
+    .caption32{
+        display: none;
+    }
+}

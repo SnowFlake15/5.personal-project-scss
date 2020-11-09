@@ -1,0 +1,99 @@
+
+@media (min-width:1025px){
+    .component3{
+        width: 100%;
+        height: 818px;
+        background-color: white;
+        align-items: center;
+        display: flex;
+        
+        .contentAbout{
+            justify-content: space-between;
+            display: flex;
+            margin-top: 80px;
+        }
+        .contentAbout1{
+            width: 27vw;
+            
+        }
+        .contentAbout1img{
+            width: 27vw;
+        }
+        .contentAbout2{
+            width: 586.5px;
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-between;
+            height: 404.88px;
+        }
+        .content{
+            width: 1188px;
+            height: 579.25px;
+        }
+        .comp3head{
+            font-size: 31px;
+            font-family: 'Raleway';
+            font-weight: 600;
+            color: $headerGrey;
+            margin-bottom: 25px;
+        }
+        .comp3parag{
+            font-size: 14px;
+            font-family: 'Open Sans';
+            color: $paraghraphGrey;
+            line-height: 25px;
+            margin-bottom: 37px;
+        }
+    }
+    @mixin comp41img{
+        width: 63px;
+        height: 63px;
+        background-color: $icoBack;
+        border: 0;
+        border-radius: 63px;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 20px 10px 10px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        float: left;
+    } 
+    .comp41 {
+        display: flex;
+        .comp41img{
+            @include comp41img;
+        }
+        .comp41text{
+            width: 185px;
+            margin-left: 5px;
+            padding-top: 10px;
+        }
+    }
+    .news{
+        margin-top: 0px;
+        width: 586.5px;
+        height: 226.88px;
+        display: grid;
+        grid-gap: 30px;
+        grid-template:  1fr 1fr/ 1fr 1fr;
+    }
+    .comp41text1{
+        font-size: 18px;
+        font-family: 'Raleway';
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .comp41text2{
+        font-size: 13px;
+        font-family: 'Open Sans';
+        line-height: 25px;
+    }
+    .contentAbout21{
+        display: none;
+    }
+}

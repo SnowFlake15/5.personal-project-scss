@@ -1,0 +1,39 @@
+
+
+@media (max-width: 1920px) {
+    
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        width: 38.5vw;
+        a{
+            font-family: "Open Sans";
+            text-decoration: none;
+            color: $white;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+    .navigation2{
+        display: none;
+    }
+    .navigation3{
+        display: none;
+    }
+    .component1{
+        height: 100px;
+    }
+    .logo{
+        display: flex;
+        font-size: 36;
+        font-family: 'Raleway';
+        width: 50px;
+        align-items: baseline;
+        img{
+            width: 27px;
+        }
+        p{
+            font-size: 36px;
+        }
+    }
+  }

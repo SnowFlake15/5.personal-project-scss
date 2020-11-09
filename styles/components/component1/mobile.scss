@@ -1,0 +1,63 @@
+@media  (max-width: 767px) {
+    .navigation3{
+        background-color: $green;
+        width: 56px;
+        height: 39px;
+        display: block;
+        .navBord{
+            border: $white, 2px, solid;
+            width: 48px;
+            height: 31px;
+        }
+    }
+    .navigation{
+        display: none;
+    }
+    .navigation2{
+        background-color: $green;
+        width: 48px;
+        height: 31px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .navBord{
+            border: white, 2px, solid;
+            width: 42.44px;
+            height: 25.44px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: white solid 2px
+        }
+        img{
+            width: 30px;
+            margin-bottom: 2px;
+        }
+    }
+    .component1{
+        height: 70px;
+        padding: 10px;
+    }
+    .header{
+        width: 94%;
+        margin: auto;
+    }
+    .logo{
+        display: flex;
+        font-size: 36;
+        font-family: 'Raleway';
+        width: 50px;
+        align-items: baseline;
+        // height: 50px;
+        img{
+            width: 20px;
+        }
+        p{
+            font-size: 26px;
+        }
+    }
+  }
