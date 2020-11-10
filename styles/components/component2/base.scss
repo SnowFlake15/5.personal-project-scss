@@ -2,18 +2,32 @@
     width: 100%;
     background-color: $lightBackground;
     color: $white;
-    background-image: url(../../../images/component2/a0a3b5105448705.5f9ef9a33552d.jpg);
+    
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     align-items: center;
     
 }
+// .component2img{
+    // background-image: url("../../../images/component2/a0a3b5105448705.5f9ef9a33552d.jpg");
+//     height: 100%; 
+
+//     /* Center and scale the image nicely */
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: space-between;
+//     box-sizing: border-box;
+//     align-items: center;
+// }
 
 .caption{
     width: 714;
     height: 276px;
     margin-left: 20px;
+    
     display: flex;
     justify-content: center;
     align-items: center;

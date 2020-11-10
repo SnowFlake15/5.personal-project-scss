@@ -1,5 +1,5 @@
 
-@media (min-width:1025px){
+@media (min-width:1025px) and (max-width: 1920px){
     .component3{
         width: 100%;
         height: 818px;
@@ -94,6 +94,21 @@
         line-height: 25px;
     }
     .contentAbout21{
+        display: none;
+    }
+    .contentAbout211{
+        display: none;
+    }
+    .contentAbout221{
+        display: none;
+    }
+    .comp311head{
+        display: none;
+    }
+    .comp321parag{
+        display: none;
+    }
+    .comp31list{
         display: none;
     }
 }
