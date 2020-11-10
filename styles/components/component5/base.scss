@@ -1,0 +1,18 @@
+.component5{
+    height: 1015px;
+    width: 100%;
+    background-color: $white;
+    align-items: center;
+    display: flex;
+}
+.contentHeader12{
+    @include contentHeader();
+    .contentHeader23{
+        @include contentHeader2();
+    }
+    
+}
+.content2{
+    @include content();
+
+}

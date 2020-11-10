@@ -2,6 +2,8 @@
     height: 783px;
     width: 100%;
     background-color: $lighterBackground;
+    align-items: center;
+    display: flex;
 }
 .contentHeader11{
     @include contentHeader();
@@ -13,4 +15,62 @@
 }
 .content2{
     @include content();
+
+}
+.img2{
+    display: none;
+}
+.content2item:hover >.hexagon>.img1{
+    display: none;
+}
+.content2item:hover >.hexagon>.img2{
+    display: block;
+}
+
+.content2body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.hexagon{
+    position: relative;
+    width: auto;
+    align-self: center;
+}
+.hexagonIcon{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+}
+.content2item{
+    display: flex;
+    justify-content: space-between;
+    height: 295px;
+    flex-direction: column;
+    width: 295px;
+    text-align: center;
+    img{
+        width: 137px;
+    }
+}
+.content2itemheader{
+    color: $green;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.content2itembody{
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+.hexagontxt{
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
