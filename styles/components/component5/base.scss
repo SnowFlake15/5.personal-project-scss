@@ -2,8 +2,8 @@
     height: 1015px;
     width: 100%;
     background-color: $white;
-    align-items: center;
-    display: flex;
+
+    position: relative;
 }
 .contentHeader12{
     @include contentHeader();
@@ -12,7 +12,132 @@
     }
     
 }
-.content2{
+.content3{
     @include content();
-
+}
+.component5body, .component5body2, .component5body3{
+    display: grid;
+    width: 100%;
+    .grid11{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/2c470e105081977.5f719ebae6fe1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid12{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/338c95105081977.5f719ebae67af.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid13{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/57f7b2105081977.5f719ebae34e1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid14{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b3e4d100211401.5f0430cbdcb61.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid15{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/40b902105081977.5f719ebaea7d0.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid17{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/9d1719105081977.5f719ebae583c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid16{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/ce9ef0102182541.5f3108c4492ff.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .grid1{
+        background-color: black;
+        grid-column: span 2;
+        grid-row: span 1;
+        position: relative;
+        
+    }
+    .grid2{
+        background-color: black;
+        grid-column: span 1;
+        grid-row: span 1;
+        position: relative;
+    }
+    .grid2:hover >.gridHov{
+        display: block;
+    }
+    .grid1:hover >.gridHov{
+        display: block;
+    }
+    .gridHov{
+        width: 100%;
+        height: 100%;
+        background-color:rgba($color: $lighterBackground, $alpha: 0.5) ;
+        display: none;
+    }
+    
+    
+    div:hover > .eye{
+        display: block;
+    }
+    div:hover > .chain{
+        display: block;
+    }
+    
+    .eye {
+        border: 1px $green solid;
+        background-color: transparent;
+        position: absolute;
+        transform: translate(-100%, -50%);
+        color: white;
+        display: none;
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+     .chain{
+        border: 1px $green solid;
+        background-color: transparent;
+        position: absolute;
+        transform: translate(25%, -50%);
+        color: white;
+        display: none;
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .eye:hover{
+        background-color: $green;
+    }
+    .chain:hover{
+        background-color: $green;
+    }
+    .gridbottom{
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        bottom: 0%;
+        text-align: center;
+        font-family: "Raleway";
+        font-weight: 600;
+        color: white;
+        box-sizing: border-box;
+        display: none;
+        .gridbottom2{
+            color: $green;
+            font-style: italic;
+        }
+    }
+    div:hover > .gridbottom{
+        display: block;
+    }
 }

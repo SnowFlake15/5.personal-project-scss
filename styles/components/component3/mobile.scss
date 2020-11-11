@@ -32,6 +32,10 @@
         margin-bottom: 0px;
         margin-top: 1px;
         height: 207px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/64776b102182541.Y3JvcCw3ODIsNjExLDQ5OSww.jpg);
+            
         // margin: auto;
     }
     .comp311body{
@@ -73,7 +77,7 @@
         line-height: 20px;
     }
     ul i{
-        color: #1ABC9C;
+        color: $green;
         margin-right: 20px;
         margin-top: 5px;
     }

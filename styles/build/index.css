@@ -186,6 +186,9 @@
 .component2 {
   width: 100%;
   background-color: #282828;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/5b4d97107268499.5fa3058c6f6ea.jpg);
+  background-size: cover;
+  background-position: center;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
@@ -425,8 +428,21 @@
   }
   .component3 .contentAbout1 {
     width: 27vw;
+    position: relative;
+  }
+  .component3 .comp3img {
+    position: absolute;
+    width: 92%;
+    height: 14.5vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/64776b102182541.Y3JvcCw3ODIsNjExLDQ5OSww.jpg);
+    top: 4%;
+    left: 4%;
+    background-color: white;
   }
   .component3 .contentAbout1img {
+    position: absolute;
     width: 27vw;
   }
   .component3 .contentAbout2 {
@@ -561,6 +577,9 @@
     margin-bottom: 0px;
     margin-top: 1px;
     height: 207px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/64776b102182541.Y3JvcCw3ODIsNjExLDQ5OSww.jpg);
   }
 
   .comp311body {
@@ -606,7 +625,7 @@
   }
 
   ul i {
-    color: #1ABC9C;
+    color: #3AB6B2;
     margin-right: 20px;
     margin-top: 5px;
   }
@@ -678,6 +697,9 @@
   }
 
   .contentAbout11 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/64776b102182541.Y3JvcCw3ODIsNjExLDQ5OSww.jpg);
     width: 93vw;
     background-color: black;
     height: 421px;
@@ -723,7 +745,7 @@
   }
 
   ul i {
-    color: #1ABC9C;
+    color: #3AB6B2;
     margin-right: 20px;
     margin-top: 5px;
   }
@@ -767,7 +789,6 @@
   }
 }
 .component4 {
-  height: 783px;
   width: 100%;
   background-color: #1E1E1E;
   align-items: center;
@@ -952,8 +973,7 @@
   height: 1015px;
   width: 100%;
   background-color: #FFFFFF;
-  align-items: center;
-  display: flex;
+  position: relative;
 }
 
 .contentHeader12 {
@@ -977,11 +997,416 @@
   font-size: 22px;
 }
 
-.content2 {
+.content3 {
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.component5body, .component5body2, .component5body3 {
+  display: grid;
+  width: 100%;
+}
+.component5body .grid11, .component5body2 .grid11, .component5body3 .grid11 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/2c470e105081977.5f719ebae6fe1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid12, .component5body2 .grid12, .component5body3 .grid12 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/338c95105081977.5f719ebae67af.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid13, .component5body2 .grid13, .component5body3 .grid13 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/57f7b2105081977.5f719ebae34e1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid14, .component5body2 .grid14, .component5body3 .grid14 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b3e4d100211401.5f0430cbdcb61.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid15, .component5body2 .grid15, .component5body3 .grid15 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/40b902105081977.5f719ebaea7d0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid17, .component5body2 .grid17, .component5body3 .grid17 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/9d1719105081977.5f719ebae583c.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid16, .component5body2 .grid16, .component5body3 .grid16 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/ce9ef0102182541.5f3108c4492ff.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.component5body .grid1, .component5body2 .grid1, .component5body3 .grid1 {
+  background-color: black;
+  grid-column: span 2;
+  grid-row: span 1;
+  position: relative;
+}
+.component5body .grid2, .component5body2 .grid2, .component5body3 .grid2 {
+  background-color: black;
+  grid-column: span 1;
+  grid-row: span 1;
+  position: relative;
+}
+.component5body .grid2:hover > .gridHov, .component5body2 .grid2:hover > .gridHov, .component5body3 .grid2:hover > .gridHov {
+  display: block;
+}
+.component5body .grid1:hover > .gridHov, .component5body2 .grid1:hover > .gridHov, .component5body3 .grid1:hover > .gridHov {
+  display: block;
+}
+.component5body .gridHov, .component5body2 .gridHov, .component5body3 .gridHov {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.5);
+  display: none;
+}
+.component5body div:hover > .eye, .component5body2 div:hover > .eye, .component5body3 div:hover > .eye {
+  display: block;
+}
+.component5body div:hover > .chain, .component5body2 div:hover > .chain, .component5body3 div:hover > .chain {
+  display: block;
+}
+.component5body .eye, .component5body2 .eye, .component5body3 .eye {
+  border: 1px #3AB6B2 solid;
+  background-color: transparent;
+  position: absolute;
+  transform: translate(-100%, -50%);
+  color: white;
+  display: none;
+}
+.component5body .eye i, .component5body2 .eye i, .component5body3 .eye i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.component5body .chain, .component5body2 .chain, .component5body3 .chain {
+  border: 1px #3AB6B2 solid;
+  background-color: transparent;
+  position: absolute;
+  transform: translate(25%, -50%);
+  color: white;
+  display: none;
+}
+.component5body .chain i, .component5body2 .chain i, .component5body3 .chain i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.component5body .eye:hover, .component5body2 .eye:hover, .component5body3 .eye:hover {
+  background-color: #3AB6B2;
+}
+.component5body .chain:hover, .component5body2 .chain:hover, .component5body3 .chain:hover {
+  background-color: #3AB6B2;
+}
+.component5body .gridbottom, .component5body2 .gridbottom, .component5body3 .gridbottom {
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 600;
+  color: white;
+  box-sizing: border-box;
+  display: none;
+}
+.component5body .gridbottom .gridbottom2, .component5body2 .gridbottom .gridbottom2, .component5body3 .gridbottom .gridbottom2 {
+  color: #3AB6B2;
+  font-style: italic;
+}
+.component5body div:hover > .gridbottom, .component5body2 div:hover > .gridbottom, .component5body3 div:hover > .gridbottom {
+  display: block;
+}
+
+@media (max-width: 1920px) and (min-width: 1025px) {
+  .content3 {
+    width: 100%;
+    height: 908px;
+    position: absolute;
+    bottom: 0%;
+  }
+
+  .component5body {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(5, 1fr);
+    grid-gap: 6px;
+    width: 100%;
+    height: 765.25px;
+  }
+
+  .component5body2 {
+    display: none;
+  }
+
+  .component5body3 {
+    display: none;
+  }
+
+  .gridbottom {
+    height: 75px;
+    width: 100%;
+    padding-top: 15px;
+  }
+  .gridbottom .gridbottom1 {
+    font-size: 16.98px;
+  }
+  .gridbottom .gridbottom2 {
+    font-size: 12.99px;
+    margin-top: 7px;
+  }
+
+  .eye {
+    width: 46px;
+    height: 46px;
+    top: 50%;
+    left: 50%;
+    border-radius: 46px;
+  }
+
+  .chain {
+    top: 50%;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    border-radius: 46px;
+  }
+}
+@media (max-width: 767px) {
+  .component5 {
+    height: 802.74px;
+  }
+
+  .content3 {
+    width: 87%;
+    height: 770.08px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .component5body3 {
+    display: grid;
+    grid-template: repeat(4, 1fr)/repeat(1fr);
+    grid-gap: 7px;
+    width: 100%;
+    height: 674px;
+  }
+  .component5body3 div:hover > .facebook {
+    display: block;
+  }
+  .component5body3 div:hover > .instagram {
+    display: block;
+  }
+  .component5body3 div:hover > .twitter {
+    display: block;
+  }
+
+  .component5body {
+    display: none;
+  }
+
+  .component5body2 {
+    display: none;
+  }
+
+  .gridbottom {
+    padding-top: 15px;
+    height: 54px;
+    display: none;
+  }
+  .gridbottom .gridbottom1 {
+    font-size: 14px;
+  }
+  .gridbottom .gridbottom2 {
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .facebook {
+    transform: translate(-150%, -50%);
+  }
+
+  .twitter {
+    transform: translate(-50%, -50%);
+  }
+
+  .instagram {
+    transform: translate(50%, -50%);
+  }
+
+  .facebook, .twitter, .instagram {
+    border: 1px #3AB6B2 solid;
+    background-color: transparent;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    color: white;
+    top: 36%;
+    margin-left: 10px;
+    left: 48%;
+    display: none;
+  }
+  .facebook i, .twitter i, .instagram i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contentHeader12 {
+    font-size: 27px;
+  }
+
+  .facebook:hover, .twitter:hover, .instagram:hover {
+    background-color: #3AB6B2;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .component5 {
+    height: 734.81px;
+    align-items: center;
+    display: flex;
+  }
+
+  .content3 {
+    width: 94%;
+    height: 600.57px;
+  }
+
+  .component5body2 {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 479px;
+  }
+
+  .component5body {
+    display: none;
+  }
+
+  .component5body3 {
+    display: none;
+  }
+
+  .gridbottom {
+    padding-top: 15px;
+    height: 58px;
+    display: none;
+  }
+  .gridbottom .gridbottom1 {
+    font-size: 11.99px;
+  }
+  .gridbottom .gridbottom2 {
+    font-size: 9.99px;
+    margin-top: 3px;
+  }
+
+  .eye {
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+    top: 44%;
+    left: 47%;
+  }
+
+  .chain {
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+    top: 44%;
+    left: 47%;
+  }
+
+  .contentHeader12 {
+    font-size: 29px;
+  }
+}
+.component7 {
+  width: 100%;
+  height: 298px;
+  background-color: #111111;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 70vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.logos div {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: #252525;
+  border: 10px;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+.logos div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logos div:hover {
+  background-color: #46629E;
+}
+
+.footer {
+  height: 193px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.footer .logo {
+  margin: auto;
+  font-size: 36px;
+  width: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.footer .lastitem {
+  font-size: 11px;
+}
+
+@media (max-width: 767px) {
+  .component7 {
+    height: 312px;
+  }
+
+  .footer {
+    height: 225px;
+  }
+
+  .logo img {
+    width: 25px;
+  }
+
+  .logo p {
+    font-size: 31px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

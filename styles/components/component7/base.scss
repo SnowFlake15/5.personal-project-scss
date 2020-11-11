@@ -1,0 +1,58 @@
+.component7{
+    width: 100%;
+    height: 298px;
+    background-color: $blackish;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 70vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    div{
+        color: white;
+        width: 40px;
+        height: 40px;
+        background-color: $footerIco;
+        border: 10px;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 10px;
+        align-items: center;
+        
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    div:hover{
+        background-color: $footerIcoHov;
+    }
+}
+
+.footer{
+    height: 193px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    .logo{
+        margin: auto;
+        font-size: 36px;
+        width: 120px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .lastitem{
+        font-size: 11px;
+    }
+}

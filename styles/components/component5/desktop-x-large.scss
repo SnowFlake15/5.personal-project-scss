@@ -1,7 +1,52 @@
 
 @media (max-width: 1920px)and(min-width:1025px){
-    
-    
+    .content3{
+        width: 100%;
+        height: 908px;
+        position: absolute;
+        bottom: 0%;
+    }
+    .component5body{
+        display: grid;
+        grid-template: repeat(2, 1fr)/repeat(5, 1fr);
+        grid-gap: 6px;
+        width: 100%;
+        height: 765.25px;
+    }
+    .component5body2{
+        display: none;
+    }
+    .component5body3{
+        display: none;
+    }
+    .gridbottom{
+        height: 75px;
+        width: 100%;
+        padding-top: 15px;
+        .gridbottom1{
+            
+            font-size: 16.98px;
+            
+        }
+        .gridbottom2{
+            font-size: 12.99px;
+            margin-top:7px;
+        }
+    }
+    .eye {
+        width: 46px;
+        height: 46px;
+        top: 50%;
+        left: 50%;
+        border-radius: 46px;
+    }
+     .chain{
+        top: 50%;
+        left: 50%;
+        width: 46px;
+        height: 46px;
+        border-radius: 46px;
+    }
     
     
     

@@ -21,6 +21,9 @@
         // justify-content: space-between;
     }
     .contentAbout11{
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/64776b102182541.Y3JvcCw3ODIsNjExLDQ5OSww.jpg);
         width: 93vw;
         background-color: black;
         height: 421px;
@@ -62,7 +65,7 @@
         line-height: 20px;
     }
     ul i{
-        color: #1ABC9C;
+        color: $green;
         margin-right: 20px;
         margin-top: 5px;
     }

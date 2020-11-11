@@ -1,6 +1,9 @@
 .component2{
     width: 100%;
     background-color: $lightBackground;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/5b4d97107268499.5fa3058c6f6ea.jpg);
+    background-size: cover;
+    background-position: center;
     color: $white;
     
     display: flex;
@@ -9,19 +12,7 @@
     align-items: center;
     
 }
-// .component2img{
-    // background-image: url("../../../images/component2/a0a3b5105448705.5f9ef9a33552d.jpg");
-//     height: 100%; 
 
-//     /* Center and scale the image nicely */
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: flex;
-//     justify-content: space-between;
-//     box-sizing: border-box;
-//     align-items: center;
-// }
 
 .caption{
     width: 714;
